@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Title "Gallery" -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image1"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Image 2 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image2"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Image 3 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image3"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Image 4 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image4"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Image 5 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image5"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Image 6 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image6"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Image 7 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/image7"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

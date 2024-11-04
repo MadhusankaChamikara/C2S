@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:text="About Us"
+        android:fontFamily="@font/poppins_semibold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:text="CS2, a revolutionary invention that converts Constanta machines to be completely staple free now available for world market"
+        android:textAlignment="center"
+        android:textColor="@color/grey_font"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="The brainchild of a Ceylon Tea veteran, Rohan De Lanerolle Snr., C2S has given machines that have served faithfully over the years a new lease of life. This cost effective innovation seamlessly converts Constant staple machines to be staple-free thereby adhering to regulations and helping the environment. "
+        android:textAlignment="center"
+        android:textColor="@color/grey_font"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="This fully patented technology could revolutionize your tea bag manufacturing process, help market your products in all regions across the globe, and future-proof your business."
+        android:textAlignment="center"
+        android:textColor="@color/grey_font"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:text="Meet the Inventor"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Hailing from a family that has over 75 years of heritage in the Sri Lankan tea industry, we present to you Rohan De Lanerolle Snr, the inventor behind C2S. With his humble beginning as a tool engineer to years of experience in the teabagging industry, Rohan Snr was always passionate about giving a new lease of life to machines that have served for generations. Having this ethos, it was a natural course of action for him to create an innovation that converts Constata staple machines to be stape-free thus enabling their continued service in the face of modern-day environmental concerns and regulations."
+        android:fontFamily="@font/poppins_light"
+        android:textAlignment="center"
+        android:textColor="@color/grey_font"
+        android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

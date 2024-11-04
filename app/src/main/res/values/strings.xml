@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">C2S.lk</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="address">Abacus Tea Pvt Ltd, 203, Horana Road, Panadura, Sri Lanka</string>
+    <string name="phone">+94 (777) 510455</string>
+    <string name="email">ishan@c2s.lk / kc@c2s.lk</string>
+
+</resources>
